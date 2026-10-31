@@ -1,7 +1,7 @@
 [project]
 name = "fastapi-issue-tracker"
 version = "0.1.0"
-description = "Add your description here"
+description = "Project issue tracker"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -19,3 +19,11 @@ script_location = "%(here)s/migrations"
 # Date prefix keeps migration files in creation order when listed.
 file_template = "%%(year)d_%%(month).2d_%%(day).2d_%%(hour).2d%%(minute).2d-%%(rev)s_%%(slug)s"
 prepend_sys_path = ["."]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
