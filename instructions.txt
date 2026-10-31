@@ -1,0 +1,17 @@
+Name: GitHub Issues
+
+A small app where teams track problems and tasks in their software projects.
+
+What a user can do:
+
+Sign up and log in
+Create a project and invite teammates
+Open an issue ("Login button doesn't work"), describe it, and tag it with labels like bug or feature
+Comment on issues and close them when they're fixed
+See a project summary: how many issues are open or closed, and which labels are most common
+Watch a live, word-by-word summary of an issue appear on screen (fake text for now, a real AI summary later)
+Rules the app enforces:
+
+Only team members can see a project's issues
+Only the person who opened an issue, or the project owner, can edit or close it
+Only the owner manages the team and the labels
